@@ -1,18 +1,18 @@
-from rest_framework.generics import ListAPIView
-from rest_framework.generics import RetrieveAPIView
+from rest_framework import generics, permissions
 from .models import Post
 from .serializers import PostSerializer
 from django.views.generic import TemplateView
 
 
-class PostList(ListAPIView):
+class PostList(generics.ListCreateAPIView):
     queryset = Post.objects.all()
     serializer_class = PostSerializer
 
 
-class PostDetail(RetrieveAPIView):
+class PostDetail(generics.RetrieveUpdateDestroyAPIView):
     queryset = Post.objects.all()
     serializer_class = PostSerializer
+    permission_classes = [permissions.IsAdminUser, ]
 
 
 class Dashboard(TemplateView):
