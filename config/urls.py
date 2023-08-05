@@ -6,9 +6,14 @@ from post.views import Dashboard
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api-auth/', include('rest_framework.urls')),
+    path('api/api-auth/', include('rest_framework.urls')),
     path('api/', include('post.urls')),
     path('', Dashboard.as_view(), name='dashboard'),
+    path('api/dj-rest-auth/', include('dj_rest_auth.urls')),
+    path(
+        'api/dj-rest-auth/registration/',
+        include('dj_rest_auth.registration.urls')
+    ),
 ]
 
 
