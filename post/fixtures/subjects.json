@@ -1,0 +1,54 @@
+[
+{
+  "model": "post.post",
+  "pk": 1,
+  "fields": {
+    "title": "This is the first post",
+    "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quis lorem nec arcu molestie maximus non eget ante. Integer tempor euismod ullamcorper. Phasellus lobortis, libero varius imperdiet malesuada, risus elit consequat diam, sodales accumsan erat justo a elit. Morbi nec commodo dolor, ac tincidunt ante. Nunc eget imperdiet est. Cras a leo quis ipsum pretium fermentum vel a purus. Integer feugiat finibus purus eget lacinia. Sed quis velit at odio aliquet efficitur quis ut elit. Pellentesque leo lectus, cursus sit amet arcu a, placerat tristique ex. Phasellus eu lacus at ligula mollis tempor venenatis in erat. Donec cursus, augue quis aliquet interdum, nunc neque porttitor odio, commodo tristique augue ligula quis nunc. Nunc vehicula eleifend nulla, id tincidunt nunc rutrum bibendum.",
+    "author": 1,
+    "created_at": "2023-08-01T11:59:40.682Z",
+    "updated_at": "2023-08-01",
+    "slug": "this-is-the-first-post",
+    "image": "post/2023/08/01/8a10e877ac122855943dedcfc51c2f49.jpg"
+  }
+},
+{
+  "model": "post.post",
+  "pk": 2,
+  "fields": {
+    "title": "Python basic course",
+    "body": "Python is a computer programming language often used to build websites and software, automate tasks, and conduct data analysis. Python is a general-purpose language, meaning it can be used to create a variety of different programs and isn't specialized for any specific problems.",
+    "author": 1,
+    "created_at": "2023-08-03T11:31:20.130Z",
+    "updated_at": "2023-08-03",
+    "slug": "python-basic-course",
+    "image": "post/2023/08/03/self.jpg"
+  }
+},
+{
+  "model": "post.post",
+  "pk": 3,
+  "fields": {
+    "title": "Javascript",
+    "body": "JavaScript is a scripting or programming language that allows you to implement complex features on web pages — every time a web page does more than just sit there and display static information for you to look at — displaying timely content updates, interactive maps, animated 2D/3D graphics, scrolling video jukeboxes,",
+    "author": 1,
+    "created_at": "2023-08-03T11:32:55.184Z",
+    "updated_at": "2023-08-03",
+    "slug": "javascript",
+    "image": "post/2023/08/03/8a10e877ac122855943dedcfc51c2f49.jpg"
+  }
+},
+{
+  "model": "post.post",
+  "pk": 4,
+  "fields": {
+    "title": "Samsung",
+    "body": "Mobile",
+    "author": 1,
+    "created_at": "2023-08-05T11:49:04.410Z",
+    "updated_at": "2023-08-05",
+    "slug": "samsung",
+    "image": "post/2023/08/05/Screenshot_from_2023-07-30_22-53-03.png"
+  }
+}
+]
